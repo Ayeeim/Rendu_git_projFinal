@@ -58,3 +58,5 @@ while(rep == ""):
         if rep != "":
             print("Fermeture du jeu.")
             exit()
+
+#Fixbug
