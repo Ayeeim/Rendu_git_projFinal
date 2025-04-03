@@ -23,3 +23,8 @@ def is_find(word):
             return False
     return True
 
+#Permet l'affichage du mot sous forme semi-caché
+def print_word(word):
+    for char in word:
+        print(char if char in charFound else "_", end=" ")
+    print("\n\n")
