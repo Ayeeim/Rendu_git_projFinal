@@ -18,5 +18,5 @@ def prop_letter():
         print("Fermeture du jeu")
         exit()
     #Ajoute la lettre dans les lettres testées.
-    charTested.append(har)
+    charTested.append(char)
     return char
