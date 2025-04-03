@@ -10,3 +10,9 @@ def is_in_word(char, word):
         return True
     else:
         return False
+    
+#Sépare le mot dans une liste
+def split_word(word):
+    charToFind = [char for char in word]
+    return charToFind
+
