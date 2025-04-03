@@ -16,3 +16,10 @@ def split_word(word):
     charToFind = [char for char in word]
     return charToFind
 
+#Vérifie si le mot est trouvé
+def is_find(word):
+    for char in word:
+        if char.upper() not in charFound:
+            return False
+    return True
+
