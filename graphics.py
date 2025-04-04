@@ -2,6 +2,10 @@ from tkinter import *
 
 lstButton = []
 
+#Fonction factice à récupérer dans le main
+def hidden_word(word):
+    return "T _ _ T"
+
 #Pas encore implémenté
 def play_menu():
     playMenu = Tk()
@@ -38,7 +42,7 @@ def play_menu():
             else:
                 column =0
     playMenu.mainloop()
-    
+
 def start_menu():
     global window
     window.config(bg="#ffcd00")
@@ -55,7 +59,5 @@ def start_menu():
 window = Tk()
 start_menu()
 
-#Fonction factice à récupérer dans le main
-def hidden_word(word):
-    return "T _ _ T"
+
 
