@@ -1,5 +1,7 @@
 from tkinter import *
 
+lstButton = []
+
 #Pas encore implémenté
 def play_menu():
     return 0
@@ -15,3 +17,10 @@ def start_menu():
     button = Button(frame, bg="#ffcd00", fg="white", font=("Courrier",20, "bold"), text="Jouer", relief=SUNKEN, command=play_menu)
     button.pack(fill=X)
     window.mainloop()
+
+window = Tk()
+start_menu()
+
+#Fonction factice à récupérer dans le main
+def hidden_word(word):
+    return "T _ _ T"
